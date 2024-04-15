@@ -2,11 +2,11 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section id='experience' class='border border-1 border-danger'>
-      <p>Explore My</p>
-      <h1 class='title  border border-1 border-danger'>Experience</h1>
-      <div className='experience-container  border border-1 border-danger'>
-        <div className='company-container  border border-1 border-danger'>
+    <section id='experience'>
+      <p className='text-center'>Explore My</p>
+      <h1 class='title  '>Experience</h1>
+      <div className='experience-container'>
+        <div className='company-container'>
           <h4>Software Engineer | GlobalLogic | Nov 2023 – Present</h4>
           <p>
             Develop RESTful APIs for web applications, debugging, deploying,
@@ -14,7 +14,7 @@ const Experience = () => {
             AWS, Docker, CI/CD, Jenkins, Swagger, Splunk, TDD.
           </p>
         </div>
-        <div className='company-container border border-1 border-danger'>
+        <div className='company-container'>
           <h4>Software Developer | Eiger IT Inc | Jun 2023 – Oct 2023</h4>
           <p>
             Developed RESTful APIs with microservice architecture for enterprise
@@ -22,7 +22,7 @@ const Experience = () => {
             Hibernate, AWS Lambda, S3, JUnit, Mockito, Apache Kafka.
           </p>
         </div>
-        <div className='company-container border border-1 border-danger'>
+        <div className='company-container'>
           <h4>Software Development Engineer | Amazon | Aug 2022 – Mar 2023</h4>
           <p>
             Led the design and development of REST API's using Java, Spring
@@ -31,7 +31,7 @@ const Experience = () => {
             deployment and continuous integration of new features.
           </p>
         </div>
-        <div className='company-container border border-1 border-danger'>
+        <div className='company-container'>
           <h4>
             Software Engineer | Tata Consultancy Services | Apr 2019 – Aug 2021
           </h4>
@@ -44,49 +44,45 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      <div className='skills-container border border-1 border-danger'>
+      <div className='skills-container'>
         <h3>Skills</h3>
-        <div className='skill-card border border-1 border-danger'>
+        <div className='skill-card'>
           <h5>Programming Languages</h5>
           <p>Java, J2EE, Python, C++, SQL</p>
         </div>
-        <div className='skill-card border border-1 border-danger'>
+        <div className='skill-card'>
           <h5>Java Technologies</h5>
           <p>
             Spring Boot, Spring MVC, Spring Data JPA, Spring Cloud, Spring
             Security, JSP, Servlets, JDBC, EJB, Struts
           </p>
         </div>
-        <div className='skill-card border border-1 border-danger'>
+        <div className='skill-card'>
           <h5>Web Technologies</h5>
           <p>
             JavaScript, React, Angular, TypeScript, NodeJs, ExpressJs, Redux,
             HTML5, CSS3, Bootstrap
           </p>
         </div>
-        <div className='skill-card border border-1 border-danger'>
+        <div className='skill-card'>
           <h5>AWS Technologies</h5>
           <p>
             EC2, S3, CloudFormation, Lambda, StepFunctions, DynamoDB, API
             Gateway, IAM, SNS and CDK
           </p>
         </div>
-        <div className='skill-card border border-1 border-danger'>
+        <div className='skill-card'>
           <h5>Database</h5>
           <p>
             MongoDB, DynamoDB, Postgresql, Microsoft SQL Server, Oracle, MySQL
           </p>
         </div>
-        <div className='skill-card border border-1 border-danger'>
+        <div className='skill-card'>
           <h5>Tools/Frameworks</h5>
           <p>
             GIT, BitBucket, Docker, Kubernetes, Jenkins, JIRA, Postman, JUnit,
             Mockito, Apache Kafka, JWT, OAuth2, Splunk
           </p>
-        </div>
-        <div className='skill-card border border-1 border-danger'>
-          <h5>Certifications</h5>
-          <p>AWS Certified Developer - Associate</p>
         </div>
       </div>
     </section>

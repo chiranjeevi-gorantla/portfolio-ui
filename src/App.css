@@ -26,36 +26,317 @@ body {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.nav-options {
+  margin: 0 0 0 10rem;
 }
 
 /* ***********************************  PROFILE  ******************************************** */
+
 #profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
+  padding-top: 4vh;
+  margin: 10rem 7rem 11rem 7rem;
 }
 
-section {
-  padding-top: 4vh;
-  height: 150vh;
-  margin: 0 7rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-  /* background: cornsilk; */
+.profile-image {
+  height: 300px;
+  width: 300px;
+  margin-right: 2rem;
+}
+
+.profile-text {
+  align-self: center;
+  text-align: left;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-text-p2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-container {
+  margin-top: 2rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.btn-light {
+  background-color: #f0f0f0;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.socials-container svg {
+  font-size: 2rem;
 }
 
 /* ***********************************  ABOUT  ******************************************** */
-.exp-edu-container {
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 7rem;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
+  margin-top: 2rem;
+}
+
+.about-pic-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-pic-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.exp-edu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-experience-container,
+.about-education-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-experience-container img,
+.about-education-container img {
+  max-width: 50px;
+  height: auto;
+}
+
+.about-text-container {
+  max-width: 800px;
+  text-align: center;
+  margin-top: 2rem; /* Add spacing above the text container */
+}
+
+.about-text-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 /* ***********************************  EXPERIENCE  ******************************************** */
+#experience {
+  padding: 4rem 7rem;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.company-container {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.company-container h4 {
+  margin-bottom: 1rem;
+}
+
+.company-container p {
+  line-height: 1.6;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.skill-card {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+  margin: 0;
+  line-height: 1.6;
+}
 
 /* ***********************************  PROJECTS  ******************************************** */
 
+#projects {
+  padding: 4rem 7rem;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  width: calc(50% - 1rem);
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h2 {
+  margin-bottom: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container button {
+  flex: 1;
+  margin: 0 0.5rem;
+}
+
 /* ***********************************  CONTACT  ******************************************** */
 
+#contact {
+  padding: 4rem 1rem;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control,
+.btn {
+  width: 100%;
+}
+
+.contact-container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.contact-info-container {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-container h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-info-container .btn {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.border-danger {
+  border-color: #dc3545 !important;
+}
+
 /* ***********************************  FOOTER  ******************************************** */
+
+.footer-container {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
