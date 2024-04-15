@@ -4,19 +4,12 @@ import cg_logo from '../assets/cg-logo.png';
 
 const Navbar = () => {
   return (
-    <nav class='navbar navbar-expand-lg border border-1 border-danger'>
+    <nav class='navbar navbar-expand-lg'>
       <div class='container-fluid'>
-        <img
-          src={cg_logo}
-          class='cg-logo border border-1 border-danger'
-          alt='CG logo'
-        />
+        <img src={cg_logo} class='cg-logo' alt='CG logo' />
 
-        <div
-          class='collapse navbar-collapse border border-1 border-danger'
-          id='navbarNav'
-        >
-          <ul class='navbar-nav ms-5'>
+        <div class='collapse navbar-collapse nav-links mx-5' id='navbarNav'>
+          <ul class='navbar-nav nav-options'>
             <li class='nav-item'>
               <Link to='#about' class='nav-link active'>
                 About

@@ -26,7 +26,11 @@ body {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.nav-options {
+  margin-left: 6rem;
 }
 
 /* ***********************************  PROFILE  ******************************************** */
@@ -45,6 +49,40 @@ section {
   /* background: cornsilk; */
 }
 
+.profile-image {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.profile-text {
+  align-self: center;
+  text-align: center;
+}
+
+.section-text p {
+  font-weight: 600;
+  font-weight: 500;
+}
+
+.section-text-p1 {
+  text-align: center;
+}
+
+.section-text-p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  color: rgb(85, 85, 85);
+}
 /* ***********************************  ABOUT  ******************************************** */
 .exp-edu-container {
   display: flex;
