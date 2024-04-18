@@ -5,19 +5,19 @@ import experience from '../assets/experience.png';
 
 const About = () => {
   return (
-    <section id='about' class='border border-1 border-danger'>
+    <section id='about'>
       <p>Get To Know More</p>
-      <h1 class='title  border border-1 border-danger'>About Me</h1>
-      <div className='about-container  border border-1 border-danger'>
-        <div class='about-pic-container  border border-1 border-danger'>
+      <h1 class='title'>About Me</h1>
+      <div className='about-container'>
+        <div class='about-pic-container'>
           <img
-            className='w-50  border border-1 border-danger'
+            className='w-50  '
             src={about_image}
             alt='Chiranjeevi Gorantla profile_picture'
           />
         </div>
-        <div className='exp-edu-container  border border-1 border-danger'>
-          <div className='about-experience-container  border border-1 border-danger'>
+        <div className='exp-edu-container'>
+          <div className='about-experience-container'>
             <img src={experience} alt='Experienece icon' width='50px' />
             <h3>Experience</h3>
             <p>
@@ -25,7 +25,7 @@ const About = () => {
               "Full Stack Development"
             </p>
           </div>
-          <div className='about-education-container  border border-1 border-danger'>
+          <div className='about-education-container'>
             <img src={education} alt='Education icon' width='50px' />
             <h3>Education</h3>
             <p>
@@ -35,7 +35,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='about-text-container  border border-1 border-danger'>
+      <div className='about-text-container'>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

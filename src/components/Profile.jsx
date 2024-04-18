@@ -5,20 +5,18 @@ import profileImage from '../assets/profile.png';
 
 const Profile = () => {
   return (
-    <section id='profile' class='border border-1 border-danger'>
-      <div class='profile-image border border-1 border-danger'>
+    <section id='profile'>
+      <div class='profile-image'>
         <img
           className='profile-image'
           src={profileImage}
           alt='Chiranjeevi Gorantla profile_picture'
         />
       </div>
-      <div class='profile-text section-text border border-1 border-danger'>
-        <p class='section-text-p1'>Hello, I'm</p>
-        <h1 class='title  border border-1 border-danger'>
-          Chiranjeevi Gorantla
-        </h1>
-        <p class='section-text-p2'>
+      <div class='profile-text section-text'>
+        <p class='section-text-p1 text-center'>Hello, I'm</p>
+        <h1 class='title  '>Chiranjeevi Gorantla</h1>
+        <p class='section-text-p2 text-center'>
           Full Stack Developer
           {/* with a focus on creating
           (and occasionally designing) exceptional digital experiences that are
@@ -34,7 +32,7 @@ const Profile = () => {
             Contact Info
           </button>
         </div>
-        <div className='socials-container  border border-1 border-danger'>
+        <div className='socials-container'>
           <FaLinkedin />
           <SiGithub />
         </div>
