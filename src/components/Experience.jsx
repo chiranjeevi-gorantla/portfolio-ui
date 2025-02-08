@@ -9,9 +9,9 @@ const Experience = () => {
         <div className='company-container'>
           <h4>Software Engineer | GlobalLogic | Nov 2023 – Present</h4>
           <p>
-            Develop RESTful APIs for web applications, debugging, deploying,
-            testing, and providing integration support using Java, Spring Boot,
-            AWS, Docker, CI/CD, Jenkins, Swagger, Splunk, TDD.
+            Design & develop RESTful APIs for web applications, debugging,
+            deploying, testing, and providing integration support using Java,
+            Spring Boot, AWS, Docker, CI/CD, Jenkins, Swagger, Splunk, TDD.
           </p>
         </div>
         <div className='company-container'>
